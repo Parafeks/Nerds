@@ -1,6 +1,6 @@
 
 body{
-    /* тут внести шрифт? */
+    /* тут внести шрифт */
 }
 
 .menu-wrapper{
@@ -11,7 +11,7 @@ body{
     top: 0px;
 }
 
-header{  
+.header{  
     display: flex;
     justify-content: space-around; 
     align-items: center;
@@ -61,4 +61,47 @@ header{
 
 .name-cart{
     margin-right: 141px;
+}
+
+
+
+
+
+.conteiner{     
+    display: flex;
+    justify-content: space-around;
+}
+
+.social{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.item{
+    list-style: none;
+    margin-right: 9px;
+}
+
+.item:last-child{
+    margin-right: 0px;
+}
+
+.circle {
+    width: 81px; 
+    height: 81px;
+    background: #E1E1E1;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+
+}
+
+.social-text{
+    margin-right: 240px;
+}
+
+.socal-info{
+    /* margin-bottom: 10px;  */
 }
