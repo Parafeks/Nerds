@@ -1,17 +1,20 @@
 
 body{
     /* тут внести шрифт */
+    padding: 0px;
+    margin: 0px;
 }
 
 .menu-wrapper{
-    background-color: #EEEEEE;
+    /* background-color: #EEEEEE;
     width: 1440px;
     height: 545px;
-    left: 0px;    /* по идее, этим мы прибиваем серый прямоугольник вверх и слева. Но почему не так? */
-    top: 0px;
+    left: 0px;    
+    top: 0px; */
 }
 
-.header{  
+.header{ 
+    background-color: #EEEEEE;
     display: flex;
     justify-content: space-around; 
     align-items: center;
@@ -30,6 +33,7 @@ body{
 .nav-menu{
     display: flex;
     align-items: center;
+    padding-left: 0px;
 }
 
 .nav-item{
@@ -37,13 +41,11 @@ body{
     margin-right: 50px;
 }
 
-/* .nav-item:first-child{
-    margin-left: 0;
-} */
 
 .nav-item:last-child{
     margin-right: 0;
 }
+
 
 .nav-link{
     text-decoration: none;       /* убирает нижнее подчеркивание*/
@@ -65,7 +67,33 @@ body{
 
 /* _________________________ */
 
-.slider-button-1{
+.slider-info{
+    background-color: #EEEEEE;
+}
+
+.slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.slider-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+
+.slider-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.slider-button{
     color: #FFFFFF;
     background-color: #FB565A;
     border-radius: 3px;       /* закругление */
@@ -73,16 +101,12 @@ body{
     text-transform: uppercase;
     width: 240px;
     height: 50px;
-    display: block;     /* после этого ссылка будет вести себя, как блочный эл-т и пможно выставлять размеры*/
+    display: block;    
     text-align: center;
     line-height: 50px;
 }
 
-.slider-1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 
 
 
@@ -95,7 +119,7 @@ body{
 /* __________________________________ */
 
 .conteiner{     
-    display: flex;
+    display: flex;  
     justify-content: space-around;
 }
 
