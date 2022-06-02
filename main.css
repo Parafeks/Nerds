@@ -82,7 +82,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    display: none;
 }
 
 
@@ -90,7 +89,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    display: none;
 }
 
 .slider-button{
@@ -106,19 +104,23 @@ body{
     line-height: 50px;       /*высота строки */
 }
 
-.slider-nav{
-    display: flex;
-    justify-content: center;
-    
+.slider-block{
+    display: none;
 }
 
-.slider-check{            /*скрываем кружочки*/
+.slider-check:checked +.slider-block{
+    display: block;
+}
+
+
+
+/* .slider-check{            скрываем кружочки
     position:absolute;
     clip:rect(0 0 0 0);
 	overflow:hidden;
 }
 
-.slider-label{
+.slider-label{      рисуем новые кружочки
     overflow:hidden; 
     display:inline-block; 
     width: 18px;
@@ -126,7 +128,7 @@ body{
     background:#7bf708;
     border-radius: 50%;
     margin-right: 9px;
-}
+} */
 
 
 
