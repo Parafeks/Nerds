@@ -65,11 +65,13 @@ body{
     margin-right: 141px;
 }
 
-/* _________________________ */
+/* _________SLIDER________________ */
 
 .slider-info{
     background-color: #EEEEEE;
 }
+
+
 
 .slider-design{
     display: flex;
@@ -89,7 +91,14 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
+/* .slider-block{         пыталась заменить этим блоком настройки для .slider-design, .slider-match,
+    display: flex;                                  .slider-hardcore, но все почему-то поломалось :(
+    justify-content: center;
+    align-items: center;
+} */
+
 
 .slider-button{
     color: #FFFFFF;
@@ -104,11 +113,13 @@ body{
     line-height: 50px;       /*высота строки */
 }
 
-.slider-block{
-    display: none;
+
+
+.slider-block{        /*по дефолту у нас все слайды display:none. Но если у нас чекнута*/
+    display: none;     /*какая-то радио-кнопка - то div который стоит за этой кнопкой - он становится display: flex или block; */
 }
 
-.slider-check:checked +.slider-block{
+.slider-check:checked +.slider-block{     /*т.е. если у нас радио-кнопка чекнута - тогда следующий элемент (класс), который будет иметь указанные стили */
     display: block;
 }
 
@@ -139,7 +150,7 @@ body{
 
 
 
-/* __________________________________ */
+/* ___________FOOTER_______________________ */
 
 .conteiner{     
     display: flex;  
