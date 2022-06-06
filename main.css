@@ -97,7 +97,7 @@ body{
     display: flex;                               
     justify-content: center;
     align-items: center;
-} */ */
+} */ 
 
 
 .slider-button{
@@ -121,7 +121,6 @@ body{
 
 
 .slider-check:checked +.slider-block{     /*т.е. если у нас радио-кнопка чекнута - тогда следующий элемент (класс), который будет иметь указанные стили */
-    /* display: block; */
     display: flex;                                  
     justify-content: center;
     align-items: center;
