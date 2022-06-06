@@ -73,7 +73,7 @@ body{
 
 
 
-.slider-design{
+/* .slider-design{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -93,11 +93,11 @@ body{
     align-items: center;
 
 }
-/* .slider-block{         пыталась заменить этим блоком настройки для .slider-design, .slider-match,
-    display: flex;                                  .slider-hardcore, но все почему-то поломалось :(
+/* .slider-block{        
+    display: flex;                               
     justify-content: center;
     align-items: center;
-} */
+} */ */
 
 
 .slider-button{
@@ -119,8 +119,12 @@ body{
     display: none;     /*какая-то радио-кнопка - то div который стоит за этой кнопкой - он становится display: flex или block; */
 }
 
+
 .slider-check:checked +.slider-block{     /*т.е. если у нас радио-кнопка чекнута - тогда следующий элемент (класс), который будет иметь указанные стили */
-    display: block;
+    /* display: block; */
+    display: flex;                                  
+    justify-content: center;
+    align-items: center;
 }
 
 
