@@ -113,15 +113,13 @@ body{
     line-height: 50px;       /*высота строки */
 }
 
-
-
 .slider-block{        /*по дефолту у нас все слайды display:none. Но если у нас чекнута*/
     display: none;     /*какая-то радио-кнопка - то div который стоит за этой кнопкой - он становится display: flex или block; */
 }
 
 
 .slider-check:checked +.slider-block{     /*т.е. если у нас радио-кнопка чекнута - тогда следующий элемент (класс), который будет иметь указанные стили */
-    display: flex;                                  
+    display: flex;
     justify-content: center;
     align-items: center;
 }
