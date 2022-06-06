@@ -69,6 +69,7 @@ body{
 
 .slider-info{
     background-color: #EEEEEE;
+    position: relative;
 }
 
 
@@ -115,6 +116,24 @@ body{
 
 .slider-block{        /*по дефолту у нас все слайды display:none. Но если у нас чекнута*/
     display: none;     /*какая-то радио-кнопка - то div который стоит за этой кнопкой - он становится display: flex или block; */
+}
+
+#r-disign{
+    position: absolute;
+    top: 420px;
+    left: 220px;
+}
+
+#r-match{
+    position: absolute;
+    top: 420px;
+    left: 230px;
+}
+
+#r-hardcore{
+    position: absolute;
+    top: 420px;
+    left: 240px;
 }
 
 
