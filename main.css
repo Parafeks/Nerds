@@ -5,13 +5,7 @@ body{
     margin: 0px;
 }
 
-.menu-wrapper{
-    /* background-color: #EEEEEE;
-    width: 1440px;
-    height: 545px;
-    left: 0px;    
-    top: 0px; */
-}
+
 
 .header{ 
     background-color: #EEEEEE;
@@ -67,40 +61,33 @@ body{
 
 /* _________SLIDER________________ */
 
+
 .slider-info{
     background-color: #EEEEEE;
     position: relative;
+    width: 1440px;
+    padding-top: 435px;
+    text-align:center;
 }
-
-
-
-/* .slider-design{
+  
+.slider-block{
+    position:absolute;
+    top: 0px;
+    left:0px; 
+}
+  
+.slider-block{
+    display: none;
+}
+  
+.slider-check:checked +.slider-block{
     display: flex;
     justify-content: center;
     align-items: center;
-
+    text-align: left;
+    margin-left: 70px;
 }
-
-.slider-math{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-.slider-hardcore{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-/* .slider-block{        
-    display: flex;                               
-    justify-content: center;
-    align-items: center;
-} */ 
-
-
+  
 .slider-button{
     color: #FFFFFF;
     background-color: #FB565A;
@@ -111,61 +98,8 @@ body{
     height: 50px;
     display: block;    
     text-align: center;
-    line-height: 50px;       /*высота строки */
+    line-height: 50px; 
 }
-
-.slider-block{        /*по дефолту у нас все слайды display:none. Но если у нас чекнута*/
-    display: none;     /*какая-то радио-кнопка - то div который стоит за этой кнопкой - он становится display: flex или block; */
-}
-
-#r-disign{
-    position: absolute;
-    top: 420px;
-    left: 220px;
-}
-
-#r-match{
-    position: absolute;
-    top: 420px;
-    left: 230px;
-}
-
-#r-hardcore{
-    position: absolute;
-    top: 420px;
-    left: 240px;
-}
-
-
-.slider-check:checked +.slider-block{     /*т.е. если у нас радио-кнопка чекнута - тогда следующий элемент (класс), который будет иметь указанные стили */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-
-/* .slider-check{            скрываем кружочки
-    position:absolute;
-    clip:rect(0 0 0 0);
-	overflow:hidden;
-}
-
-.slider-label{      рисуем новые кружочки
-    overflow:hidden; 
-    display:inline-block; 
-    width: 18px;
-    height: 18px;
-    background:#7bf708;
-    border-radius: 50%;
-    margin-right: 9px;
-} */
-
-
-
-
-
-
 
 
 
