@@ -65,7 +65,7 @@ body{
 .slider-info{
     background-color: #EEEEEE;
     position: relative;
-    width: 1440px;
+    width: 1280px;
     padding-top: 435px;
     text-align:center;
 }
@@ -137,6 +137,63 @@ body{
     background-color: #EFC849;
 }
 
+hr{
+    border: none; /* Убираем границу */
+    background-color: #EEEEEE; /* Цвет линии */
+    height: 2px; /* Толщина линии */
+    width: 1158px;
+    margin-top: 95px;  
+    margin-bottom: 39px;
+
+}
+
+/* ______________INFO_______________________ */
+
+.table-info{
+    list-style: none;  
+    line-height: 45px; 
+}
+
+.table-info li{
+    position: relative;
+}
+
+.table-info li:before{
+    content: '';
+    width: 25px;
+    height: 2px;
+    background-color: #FB565A;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: -40px;            /*т.е.мы выходим из контейнера table-info на -40px*/
+}
+
+.img-table{
+    padding-bottom: 20px;
+}
+
+
+.info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-table{
+    width: 100%;
+
+}
+
+caption{
+    text-transform: uppercase;
+}
+
+.percent-table {
+    font-size: 35px;
+    display: flex;
+    justify-content: left;
+}
 
 
 
@@ -159,7 +216,8 @@ body{
 }
 
 .item:last-child{
-    margin-right: 0px;
+    margin-right: 0px;  
+
 }
 
 .link {
@@ -180,3 +238,5 @@ body{
 .socal-info{
     /* margin-bottom: 10px;  */
 }
+
+
