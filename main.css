@@ -137,14 +137,13 @@ body{
     background-color: #EFC849;
 }
 
-hr{
+.line-presentation{
     border: none; /* Убираем границу */
     background-color: #EEEEEE; /* Цвет линии */
     height: 2px; /* Толщина линии */
     width: 1158px;
-    margin-top: 95px;  
+    margin-top: 85px;  
     margin-bottom: 39px;
-
 }
 
 /* ______________INFO_______________________ */
@@ -172,7 +171,9 @@ hr{
 .img-table{
     padding-bottom: 20px;
 }
-
+.about-table caption{
+    margin-bottom: 20px;
+}
 
 .info{
     display: flex;
@@ -189,12 +190,54 @@ caption{
     text-transform: uppercase;
 }
 
-.percent-table {
+.about-table thead{
     font-size: 35px;
-    display: flex;
-    justify-content: left;
+    text-align: left;
 }
 
+.line-information{
+    border: none; /* Убираем границу */
+    background-color: #EEEEEE; /* Цвет линии */
+    height: 2px; /* Толщина линии */
+    width: 1158px;
+    margin-top: 85px;  
+    margin-bottom: 39px;
+}
+
+
+/* _____________PARTNERS___________________ */
+
+.partners-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+
+    margin-bottom: 150px;
+}
+
+.partners-list li:before{
+    content:'';
+    width: 2px;
+    height: 52px;
+    background-color: #EEEEEE;
+}
+
+
+
+
+
+
+
+
+.line-partners{
+    border: none; /* Убираем границу */
+    background-color: #EEEEEE; /* Цвет линии */
+    height: 2px; /* Толщина линии */
+    width: 1158px;
+    margin-top: 39px;  
+    margin-bottom: 39px;
+}
 
 
 /* ___________FOOTER_______________________ */
