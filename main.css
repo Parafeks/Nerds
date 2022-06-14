@@ -207,26 +207,30 @@ caption{
 
 /* _____________PARTNERS___________________ */
 
+
+
 .partners-list {
     display: flex;
     justify-content: space-around;
     align-items: center;
     list-style: none;
 
-    margin-bottom: 150px;
+    margin-bottom: 40px;
 }
 
-.partners-list li:before{
+.partners-list li{
+    position: relative;
+}
+
+.partners-list li::before{
     content:'';
     width: 2px;
     height: 52px;
     background-color: #EEEEEE;
+    /* display: inline-block; */
+    position: absolute;
+    right: -20%;
 }
-
-
-
-
-
 
 
 
