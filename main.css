@@ -212,13 +212,24 @@ caption{
     justify-content: space-around;
     align-items: center;
     list-style: none;
-
     margin-bottom: 40px;
 }
 
 .partners-list li{
     position: relative;
     height: 100px ;
+}
+
+.partners-img {
+    opacity: 0.20;
+}
+
+.partners-img:hover {
+   opacity: 1;
+}
+
+.partners-img:active{
+    opacity: 0.10;
 }
 
 .partners-list li:not(:last-child):after{   /* задаем after всем, кроме последнего эл-та*/
