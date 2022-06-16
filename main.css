@@ -207,8 +207,6 @@ caption{
 
 /* _____________PARTNERS___________________ */
 
-
-
 .partners-list {
     display: flex;
     justify-content: space-around;
@@ -220,18 +218,18 @@ caption{
 
 .partners-list li{
     position: relative;
+    height: 100px ;
 }
 
-.partners-list li::before{
+.partners-list li:not(:last-child):after{   /* задаем after всем, кроме последнего эл-та*/
     content:'';
     width: 2px;
     height: 52px;
     background-color: #EEEEEE;
     /* display: inline-block; */
     position: absolute;
-    right: -20%;
+    right: -25%;
 }
-
 
 
 .line-partners{
@@ -239,8 +237,7 @@ caption{
     background-color: #EEEEEE; /* Цвет линии */
     height: 2px; /* Толщина линии */
     width: 1158px;
-    margin-top: 39px;  
-    margin-bottom: 39px;
+    margin-top: -30px;
 }
 
 
