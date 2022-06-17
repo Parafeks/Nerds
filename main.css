@@ -1,8 +1,8 @@
 
 body{
-    /* тут внести шрифт */
     padding: 0px;
     margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -213,7 +213,8 @@ caption{
     align-items: center;
     list-style: none;
     margin-bottom: 40px;
-}
+}Ъ
+
 
 .partners-list li{
     position: relative;
@@ -249,7 +250,57 @@ caption{
     height: 2px; /* Толщина линии */
     width: 1158px;
     margin-top: -30px;
+    margin-bottom: 50px;
 }
+
+/* ___________MAP_______________________ */
+
+.map{
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.map-img {
+    width: 100%;
+}
+
+.address {
+    width: 319px;
+    height: 308px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    top: 30px;
+    left: 90px;
+
+}
+
+.map-button {
+    display: block;
+    width: 219px;
+    height: 50px;
+    background-color: #FB565A;
+    color: white;
+    border-radius: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+}
+
+.map-logo {
+    position: absolute;
+    top: 35px;
+    left: 720px;
+}
+
+
+
+
 
 
 /* ___________FOOTER_______________________ */
