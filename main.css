@@ -258,11 +258,13 @@ caption{
 .map{
     position: relative;
     margin-bottom: 30px;
+    background: url(images/map.png);
+    border: 2px solid red;
 }
 
-.map-img {
+/* .map-img {
     width: 100%;
-}
+} */
 
 .address {
     width: 319px;
