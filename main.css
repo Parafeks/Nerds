@@ -256,15 +256,12 @@ caption{
 /* ___________MAP_______________________ */
 
 .map{
+    width: 1440px;
+    height: 416px;
     position: relative;
     margin-bottom: 30px;
-    background: url(images/map.png);
-    border: 2px solid red;
+    background: url('images/map.png');
 }
-
-/* .map-img {
-    width: 100%;
-} */
 
 .address {
     width: 319px;
@@ -275,8 +272,8 @@ caption{
     justify-content: center;
     align-items: center;
 
-    position: absolute;
-    top: 30px;
+    position: relative;
+    top: 55px;
     left: 90px;
 
 }
